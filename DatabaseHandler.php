@@ -3,7 +3,7 @@
 class DatabaseHandler {
 		
 	const DBSERVER = "localhost";
-	const DBUSER   = "dharm";
+	const DBUSER   = "ucfp";
 	const DBPASSWD = "passwd";
 	const DATABASE = "ucfp";
 
