@@ -28,14 +28,7 @@
 		 <div class="span6">
 			<p class="lead">Privacy</p>
 			<p	style="line-height:30px; font-size:16px;">
-				<strong>Echo: </strong>When you send an 'Echo' it is visible to all members in your circle. Hence you must not share any sensitive information while sending an 'Echo'. 
-	<br/><strong>Message: </strong>When you send a message to a particular member of your circle, it is visible to only that particular member. It depends of you what to share with any member in your circle.
-			</p>
-			<p	style="line-height:30px; font-size:16px;">
-			We strive to stop spamming and any marketing effort from any member. We also filter inapproaprite contents. 
-			</p>
-			<p	style="line-height:30px; font-size:16px;">
-			We do not share any of members personal information with any third party. We store minimum information about our members to connect with relevant people and show only relevant echo from all circles. <br/>
+			We do not share any of members personal information with any third party. We store minimum information required.</p> 
 			Please use <a href="contactus-module.php">contant us</a> for ask any questions and clarifications regarding privacy policy.
 
 			</p>
