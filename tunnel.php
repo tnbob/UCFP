@@ -59,6 +59,5 @@
 <button class="close" data-dismiss="alert" type="button">×</button>
 <strong><?=$result['heading']?></strong>
 <?=$result['message']?>
-<?=$password?>
 <br/>
 </div>
