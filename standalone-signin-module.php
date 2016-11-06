@@ -18,9 +18,7 @@
 <body>
 <?php 
 		include($_SERVER['DOCUMENT_ROOT']."/global-utils.php");	
-		require_once('CaptchaHandler.php');
 		executeModule("nav-module.php"); 
-		$captchaHTML = CaptchaHandler::getHTML();
 	?>
 	
 <div class="container-fluid">

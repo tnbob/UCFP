@@ -10,7 +10,7 @@
 		$home = "user-home-module.php";
 	} else {
 		$home = "land.php";
-		$suppressLoginForm = (isset($_REQUEST['slf'])? $_REQUEST['slf']: null);
+		$suppressLoginForm = (isset($_REQUEST['slf'])? $_REQUEST['slf']: false);
 	}
 ?>
 <div class="navbar navbar-inverse">

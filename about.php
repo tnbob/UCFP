@@ -1,3 +1,7 @@
+<?php 
+	session_start(); 
+	require_once($_SERVER['DOCUMENT_ROOT']."/global-utils.php");	
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +21,6 @@
 </head>
 <body>
 <?php
-	require_once('global-utils.php');	
 	executeModule("nav-module.php"); 
 ?>
 <div class="container-fluid">

@@ -34,7 +34,7 @@
 		} 
 	} else {
 		//User does not exist
-		//header("Location: /standalone-signin-module.php?slf=1");
+		header("Location: /standalone-signin-module.php?slf=1");
 	}
 
 	function setSessionVars($userID, $ret) {
