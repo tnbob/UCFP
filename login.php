@@ -24,14 +24,13 @@
 		if(strcmp($token, md5($password . $salt)) == 0) {
 			//printf("login succeeded.\n");
 			//login is successful, restart session
-			$ret = session_start();
+			//$ret = session_start();
 			//login is successful, now set session variables
 			setSessionVars($user[2], $ret);
-			//include("./user-home-module.php");
-			//header('Location: /user-home-module.php');
+			header('Location: /user-home-module.php');
 		} else {
 			//incorrect password
-			//header("Location: /standalone-signin-module.php?slf=1");
+			header("Location: /standalone-signin-module.php?slf=1");
 		} 
 	} else {
 		//User does not exist

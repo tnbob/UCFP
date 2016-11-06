@@ -26,7 +26,7 @@
 	}
 	function isLoggedIn() {
 		$ret = false;	
-		$user = $_SESSION[session_id()];
+		$user = (isset($_SESSION[session_id()]) ? $_SESSION[session_id()]: null);
 		$ipaddr = $_SERVER['REMOTE_ADDR'];
 		if($user && strcmp($ipaddr, $user['ipaddr']) == 0) $ret = true;
 		return $ret;
